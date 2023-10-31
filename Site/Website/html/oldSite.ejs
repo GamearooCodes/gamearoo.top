@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Gamearoo</title>
+		<link rel="icon" href="<%=domain%>/cdn/assets/logo.png" type="image/x-icon" />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta content="#811fd1" data-react-helmet="true" name="theme-color" />
+		<meta name="keywords" content="Gamearoo" />
+		<meta name="description" content="Gamearoo Official Landing Page" />
+		<meta name="author" content="Xd_Golden_Tiger" />
+		<script>
+			document.onkeydown = function (e) {
+				if (event.keyCode == 123) {
+					return false;
+				}
+				if (
+					e.ctrlKey &&
+					e.shiftKey &&
+					(e.keyCode == "I".charCodeAt(0) || e.keyCode == "i".charCodeAt(0))
+				) {
+					return false;
+				}
+				if (
+					e.ctrlKey &&
+					e.shiftKey &&
+					(e.keyCode == "C".charCodeAt(0) || e.keyCode == "c".charCodeAt(0))
+				) {
+					return false;
+				}
+				if (
+					e.ctrlKey &&
+					e.shiftKey &&
+					(e.keyCode == "J".charCodeAt(0) || e.keyCode == "j".charCodeAt(0))
+				) {
+					return false;
+				}
+				if (
+					e.ctrlKey &&
+					(e.keyCode == "U".charCodeAt(0) || e.keyCode == "u".charCodeAt(0))
+				) {
+					return false;
+				}
+				if (
+					e.ctrlKey &&
+					(e.keyCode == "S".charCodeAt(0) || e.keyCode == "s".charCodeAt(0))
+				) {
+					return false;
+				}
+			};
+		</script>
+	</head>
+	<body
+		oncontextmenu="return false;"
+		style="
+			cursor: default;
+			text-align: center;
+			background-image: url('<%=domain%>/cdn/assets/background.png');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			margin: 0px;
+		"
+	>
+		<div
+			height="100%"
+			width="100%"
+			style="
+				z-index: 1;
+				position: fixed;
+				background-color: #333333;
+				height: 100%;
+				width: 100%;
+				opacity: 0.8;
+			"
+		></div>
+		<br />
+		<div
+			style="
+				position: absolute;
+				z-index: 2;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				width: 100%;
+			"
+		>
+			<img
+				class="rotate"
+				src="<%=domain%>/cdn/assets/logo.png"
+				alt="Xd_Golden_Tiger Logo"
+				width="200"
+			/>
+			<br />
+			<div class="container">
+				<div class="row">
+					<div class="neons col-12">
+						<h1>
+							<b><em>GAMEAROO</em></b>
+						</h1>
+						<h3 class="detailText">
+							<i
+								><em
+									>Owner of
+									<span style="color: lightblue"
+										>Gamearoo's Development</span
+									></em
+								></i
+							><br />
+							<i
+								><em
+									>Owner of
+									<span style="color: lightblue">Friends Hub</span></em
+								></i
+							>
+						</h3>
+					</div>
+				</div>
+			</div>
+			<div style="margin-top: 100px; width: 100%">
+				<a
+					class="btn btn1 bounce"
+					target="_blank"
+					href="https://www.youtube.com/gamearoo"
+					><b>My YouTube</b></a
+				>
+				<a
+					class="btn btn1 bounce"
+					target="_blank"
+					href="https://www.youtube.com/channel/UCqB5jQomtZa80p7ngyqGXng"
+					><b>Gamearoo Music</b></a
+				>
+				<a
+					class="btn btn1 bounce"
+					target="_blank"
+					href="https://www.youtube.com/channel/UCU77MHZ9kFYFnjGH2w2B_Kg"
+					><b>Copy Right Free Music</b></a
+				>
+				<a
+					class="btn btn2 bounce"
+					target="_blank"
+					href="https://www.twitch.tv/gamearoo_streams"
+					><b>My Twitch</b></a
+				>
+				<a
+					class="btn btn3 bounce"
+					target="_blank"
+					href="https://github.com/GamearooCodes"
+					><b>My Github</b></a
+				>
+				<br />
+				<br />
+				<a
+					class="btn btn4 bounce"
+					target="_blank"
+					href="https://discord.gg/dPZEUmMdnA"
+					><b>Gamearoo's Community</b></a
+				>
+				<a
+					class="btn btn4 bounce"
+					target="_blank"
+					href="https://discord.gg/eRDpqBVNnv"
+					><b>Friends Hub</b></a
+				>
+				<a
+					class="btn btn5 bounce"
+					target="_blank"
+					href="https://gamearoodev.com"
+					><b>Gamearoo's Development Site</b></a
+				>
+                <a
+					class="btn btn5 bounce"
+					target="_blank"
+					href="https://gamearoo.top"
+					><b>New Site</b></a
+				>
+			</div>
+		</div>
+		<footer
+			style="
+				position: fixed;
+				z-index: 2;
+				cursor: default;
+				bottom: 10px;
+				left: 10px;
+				color: white;
+			"
+		>
+			&copy; Copyright 2021 Gamearoo
+		</footer>
+
+		<style>
+			@import url("https://fonts.googleapis.com/css?family=Codystar:300&display=swap");
+
+			.neons {
+				margin-top: 20px;
+				text-align: center;
+			}
+
+			.detailText {
+				color: white;
+				font-size: 30px;
+			}
+
+			h1,
+			h3,
+			footer {
+				cursor: default;
+			}
+
+			.neons h1 {
+				font-size: 50px;
+				text-align: center;
+				font-weight: bold;
+				font-family: "Codystar";
+				-webkit-animation: glow 2s ease-in-out infinite alternate;
+				-moz-animation: glow 2s ease-in-out infinite alternate;
+				animation: glow 2s ease-in-out infinite alternate;
+			}
+
+			@-webkit-keyframes glow {
+				from {
+					color: #ff00bb;
+					text-shadow: 0 0 10px #ff00bb, 0 0 20px #ff00bb, 0 0 30px #ff00bb,
+						0 0 40px #ff00bb, 0 0 50px #ff00bb, 0 0 60px #ff00bb,
+						0 0 70px #ff00bb, 0 0 90px #ff00bb;
+				}
+
+				to {
+					color: #ff00bb;
+					text-shadow: 0 0 30px #ff00bb, 0 0 40px #ff00bb, 0 0 50px #ff00bb,
+						0 0 60px #ff00bb, 0 0 70px #ff00bb, 0 0 80px #ff00bb,
+						0 0 90px #ff00bb, 0 1 100px #ff00bb;
+				}
+			}
+
+			.btn {
+				background-color: transparent;
+				border: none;
+				color: white;
+				padding: 16px 32px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 25px;
+				margin: 4px 2px;
+				transition-duration: 0.4s;
+				cursor: pointer;
+			}
+
+			.bounce {
+				animation: bounce 5s infinite linear;
+				position: relative;
+			}
+
+			@keyframes bounce {
+				0% {
+					top: 0em;
+				}
+				40% {
+					top: 0em;
+				}
+				43% {
+					top: -0.9em;
+				}
+				46% {
+					top: 0em;
+				}
+				48% {
+					top: -0.4em;
+				}
+				50% {
+					top: 0em;
+				}
+				100% {
+					top: 0em;
+				}
+			}
+
+			.btn1 {
+				color: white;
+				border: 2px solid #f44336;
+			}
+
+			.btn1:hover {
+				background-color: #f44336;
+				color: black;
+			}
+
+			.btn2 {
+				color: white;
+				border: 2px solid #a200ff;
+				animation-delay: 0.07s;
+			}
+
+			.btn2:hover {
+				background-color: #a200ff;
+				color: black;
+			}
+
+			.btn3 {
+				color: white;
+				border: 2px solid lightblue;
+				animation-delay: 0.14s;
+			}
+
+			.btn3:hover {
+				background-color: lightblue;
+				color: black;
+			}
+
+			.btn4 {
+				color: white;
+				border: 2px solid #7289da;
+				animation-delay: 0.35s;
+			}
+
+			.btn4:hover {
+				background-color: #7289da;
+				color: black;
+			}
+
+			.btn5 {
+				color: white;
+				border: 2px solid #8300ee;
+			}
+
+			.btn5:hover {
+				background-color: #b836f4;
+				color: black;
+			}
+
+			.rotate {
+				-webkit-transition-duration: 0.8s;
+				-moz-transition-duration: 0.8s;
+				-o-transition-duration: 0.8s;
+				transition-duration: 0.8s;
+				-webkit-transition-property: -webkit-transform;
+				-moz-transition-property: -moz-transform;
+				-o-transition-property: -o-transform;
+				transition-property: transform;
+				overflow: hidden;
+			}
+
+			.rotate:hover {
+				-webkit-transform: rotate(360deg);
+				-moz-transform: rotate(360deg);
+				-o-transform: rotate(360deg);
+				transform: rotate(360deg);
+			}
+
+			::selection {
+				background: yellow;
+				color: black;
+			}
+
+			::-moz-selection {
+				background: yellow;
+				color: black;
+			}
+		</style>
+	</body>
+</html>

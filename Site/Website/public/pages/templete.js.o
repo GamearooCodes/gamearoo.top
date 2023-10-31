@@ -1,0 +1,16 @@
+
+const path = require("path")
+module.exports = {
+    name: '/',
+    /**
+     * 
+     * @param {import("express").Request} req 
+     * @param {import("express").Response} res 
+     */
+    run: async (req, res) => {
+        let args = {
+            domain: process.env.domain
+        }
+
+        res.render(path.join(__dirname, "../../html/home.ejs"), args)
+    }}
