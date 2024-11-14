@@ -40,7 +40,7 @@ module.exports = {
 
             res.render(path.join(__dirname, "../../html/dash.ejs"), args2)
         } else {
-            res.render(path.join(__dirname, "../../html/home.ejs"), args)
+            res.render(path.join(__dirname, "../../html/oldSite.ejs"), args)
         }
         
     }}
